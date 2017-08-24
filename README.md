@@ -9,7 +9,6 @@ Lightweight React starter kit
 - react-router-dom
 - react-router-redux
 - redux-saga
-
 - immutable
 
 Plus:
