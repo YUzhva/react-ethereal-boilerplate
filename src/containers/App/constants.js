@@ -1,0 +1,3 @@
+export const FETCH_WELCOME_DATA = 'containers/App/FETCH_WELCOME_DATA';
+export const FETCH_WELCOME_DATA_SUCCESS = 'containers/App/FETCH_WELCOME_DATA_SUCCESS';
+export const FETCH_WELCOME_DATA_ERROR = 'containers/App/FETCH_WELCOME_DATA_ERROR';
