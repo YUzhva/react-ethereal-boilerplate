@@ -1,14 +1,15 @@
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 
 module.exports = {
-  entry: './src/main.js',
+  entry: ['babel-polyfill', './src/main.js'],
   output: {
     path: `${__dirname}/public`,
     filename: './dist/scripts.js'
   },
   devServer: {
     port: 8080,
-    contentBase: __dirname
+    contentBase: __dirname,
+    historyApiFallback: true
   },
   module: {
     rules: [

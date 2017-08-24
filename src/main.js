@@ -1,16 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
+import { Provider } from 'react-redux';
 
-export default class Main extends Component {
-  render() {
-    return (
-      <main>
-        Hello world
-      </main>
-    );
-  }
-}
+import store from './store';
+import routes from './routes';
 
-ReactDOM.render(
-  <Main/>, document.getElementById('react-ethereal-boilerplate')
+const MAIN = (
+  <Provider store={store}>
+    {routes}
+  </Provider>
 );
+
+ReactDOM.render(MAIN, document.getElementById('react-ethereal-boilerplate'));

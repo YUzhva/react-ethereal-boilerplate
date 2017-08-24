@@ -6,10 +6,10 @@ Lightweight React starter kit
 - webpack + webpack Dev Server
 - React
 - Redux
-
 - react-router-dom
 - react-router-redux
 - redux-saga
+
 - immutable
 
 ## Available Scripts
