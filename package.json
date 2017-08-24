@@ -1,0 +1,26 @@
+{
+  "name": "react-ethereal-boilerplate",
+  "version": "0.0.1",
+  "description": "React + Redux + redux-saga lightweight starter kit",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YUzhva/react-ethereal-boilerplate.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "redux-saga",
+    "boilerplate",
+    "starter-kit"
+  ],
+  "author": "Yevhen Uzhva",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YUzhva/react-ethereal-boilerplate/issues"
+  },
+  "homepage": "https://github.com/YUzhva/react-ethereal-boilerplate#readme"
+}
