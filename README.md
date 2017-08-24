@@ -21,3 +21,6 @@ After starting the server webpack should automatically open next address:
 ```
 http://localhost:8080/
 ```
+
+### `yarn build / npm build`
+Webpack will build all scripts into `./public` folder.

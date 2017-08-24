@@ -3,7 +3,7 @@ import HtmlWebpackPlugin from 'html-webpack-plugin';
 module.exports = {
   entry: './src/main.js',
   output: {
-    path: __dirname,
+    path: `${__dirname}/public`,
     filename: './dist/scripts.js'
   },
   devServer: {

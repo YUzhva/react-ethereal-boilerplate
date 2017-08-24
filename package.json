@@ -4,7 +4,8 @@
   "description": "React + Redux + redux-saga lightweight starter kit",
   "main": "src/main.js",
   "scripts": {
-    "start": "webpack-dev-server --open --inline --hot --env dev"
+    "start": "webpack-dev-server --open --inline --hot --env dev",
+    "build": "webpack -p"
   },
   "repository": {
     "type": "git",
