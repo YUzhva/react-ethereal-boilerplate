@@ -12,6 +12,9 @@ Lightweight React starter kit
 
 - immutable
 
+Plus:
+- Eslint (Airbnb JavaScript Style Guide)
+
 ## Available Scripts
 
 In the project directory, you can run:
