@@ -4,7 +4,7 @@ import createHistory from 'history/createBrowserHistory';
 import createSagaMiddleware from 'redux-saga';
 
 import createGlobalReducer from './global-reducer';
-import globalSagas from './global-sagas';
+import globalSaga from './global-saga';
 
 export const history = createHistory();
 const sagaMiddleware = createSagaMiddleware();
@@ -20,6 +20,6 @@ const store = createStore(
   applyMiddleware(...middlewares),
 );
 
-sagaMiddleware.run(globalSagas);
+sagaMiddleware.run(globalSaga);
 
 export default store;

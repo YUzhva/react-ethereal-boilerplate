@@ -4,12 +4,12 @@ module.exports = {
   entry: ['babel-polyfill', './src/main.js'],
   output: {
     path: `${__dirname}/public`,
-    filename: './dist/scripts.js'
+    filename: './dist/scripts.js',
   },
   devServer: {
     port: 8080,
     contentBase: __dirname,
-    historyApiFallback: true
+    historyApiFallback: true,
   },
   module: {
     rules: [
@@ -20,13 +20,13 @@ module.exports = {
         query: {
           presets: [
             ['es2015', { modules: false }],
-            'react'
-          ]
-        }
+            'react',
+          ],
+        },
       },
-    ]
+    ],
   },
   plugins: [
     new HtmlWebpackPlugin({ template: './src/index.template.html' }),
-  ]
+  ],
 };
