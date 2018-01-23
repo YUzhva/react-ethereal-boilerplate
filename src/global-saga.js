@@ -10,7 +10,7 @@ const sagas = [
 function* globalSaga() {
   const globalSagasForks = sagas.map((saga) => fork(saga));
 
-  yield all([...globalSagasForks]);
+  yield all(globalSagasForks);
 }
 
 export default globalSaga;
